@@ -13,6 +13,6 @@ public static void main(String[] args) {
 	linkedlist.add(4);
 	linkedlist.add(5);
 	
-	System.out.println("The Elements of An LinkedList is-->>"+linkedlist);
+	linkedlist.stream().forEach(x->System.out.println(x));
 }
 }

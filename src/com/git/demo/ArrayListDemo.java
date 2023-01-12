@@ -10,7 +10,7 @@ public class ArrayListDemo {
 		arraylist.add("pooja");
 		arraylist.add("gopal");
 		
-		System.out.println(arraylist);
+		arraylist.stream().forEach(x->System.out.println(x));
 	}
 
 }
